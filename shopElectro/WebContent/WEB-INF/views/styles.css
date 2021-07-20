@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+	background: #000 url(fon.jpg);
+	background-size: 100% auto;
+	color: #fff;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	font-family: Verdana, Georgia, "Roboto";
+	font-type: monospaced;
+	background-color:  #fcfeff;
+}
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(245, 235, 235, 0) 0%, rgba(243, 235, 235, 0.2) 25%, rgba(239, 239, 239, 0.2) 75%, rgba(243, 242, 242, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(23, 22, 22, 0.15), inset 0 0 1px rgba(249, 245, 245, 0.63);
+}
+
+ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18.9px;
+  font-family: "Roboto";
+  color: rgba(8, 8, 8, 0.66);
+  text-shadow: 1px 1px 1px rgba(247, 241, 241, 0.53);
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.64);
+}

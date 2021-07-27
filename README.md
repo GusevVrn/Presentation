@@ -1,5 +1,3 @@
-My branch for hh.ru
-
 Game folder - Simple catcher game. 
 
 Interface folder - (admin/admin) Simple application for interaction between windows. Includes calculator and AutoDB.
